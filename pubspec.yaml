@@ -1,0 +1,37 @@
+name: karlash
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  # Allows your local 3.8.1 Dart SDK to compile the project perfectly
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Safe, stable version of provider that fully supports Dart 3.x
+  provider: ^6.1.5
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.3
+  firebase_core: ^4.12.1
+  cloud_firestore: ^6.7.1
+  firebase_auth: ^6.5.6
+  sqflite: ^2.4.3
+  path: ^1.9.1
+  sqflite_common_ffi: ^2.4.2
+  sqflite_common_ffi_web: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/camera 1.png
+    - assets/camera 2.png
+    - assets/camera 3.png
+    - assets/camera 4.png

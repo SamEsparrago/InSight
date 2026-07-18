@@ -1,0 +1,7 @@
+# Exclude platform-specific boilerplate from GitHub language statistics
+android/**/* linguist-vendored
+ios/**/* linguist-vendored
+windows/**/* linguist-vendored
+linux/**/* linguist-vendored
+macos/**/* linguist-vendored
+web/**/* linguist-vendored
